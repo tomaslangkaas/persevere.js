@@ -1,21 +1,21 @@
 # persevere.js
-Minimal interface for localStorage with userData polyfill
+Minimal JavaScript interface for localStorage. With userData polyfill for old IE.
 
 ## API
 
-### persevere.supported
+#### persevere.supported
 
 Boolean flag, indicating whether localStorage or userData storage is available
 
-### persevere.load(key [,onfail])
+#### persevere.load(key [,onfail])
 
 Get value of `key`. Provide optional `onfail` callback.
 
-### persevere.save(key, value, [,onfail])
+#### persevere.save(key, value, [,onfail])
 
 Set value of `key`. Provide optional `onfail` callback.
 
 
-### persevere.empty([onfail])
+#### persevere.empty([onfail])
 
 Empty storage. Provide optional `onfail` callback.
