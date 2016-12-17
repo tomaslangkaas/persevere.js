@@ -16,6 +16,6 @@ Get value of `key`. Provide optional `onfail` callback.
 Set value of `key`. Provide optional `onfail` callback.
 
 
-#### persevere.empty([onfail])
+#### persevere.clear([onfail])
 
 Empty storage. Provide optional `onfail` callback.
