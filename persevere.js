@@ -74,7 +74,7 @@ var persevere = (function() {
         onFail && onFail();
       }
     },
-    'empty': function(onFail) {
+    'clear': function(onFail) {
       try {
         localStorage['clear']();
       } catch (e) {
