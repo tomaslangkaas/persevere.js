@@ -1,5 +1,5 @@
 # persevere.js
-Minimal interface for localStorage and userData storage
+Minimal interface for localStorage with userData polyfill
 
 ## API
 
@@ -11,7 +11,7 @@ Boolean flag, indicating whether localStorage or userData storage is available
 
 Get value of `key`. Provide optional `onfail` callback.
 
-### persevere.save(key, vaule, [,onfail])
+### persevere.save(key, value, [,onfail])
 
 Set value of `key`. Provide optional `onfail` callback.
 
