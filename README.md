@@ -15,6 +15,9 @@ Get value of `key`. Provide optional `onfail` callback.
 
 Set value of `key`. Provide optional `onfail` callback.
 
+#### persevere.remove(key, [,onfail])
+
+Remove `key`. Provide optional `onfail` callback.
 
 #### persevere.clear([onfail])
 
