@@ -74,6 +74,13 @@ var persevere = (function() {
         onFail && onFail();
       }
     },
+    'remove': function(key, onFail) {
+      try {
+        localStorage['removeItem'](key);
+      } catch (e) {
+        onFail && onFail();
+      }
+    },
     'clear': function(onFail) {
       try {
         localStorage['clear']();
